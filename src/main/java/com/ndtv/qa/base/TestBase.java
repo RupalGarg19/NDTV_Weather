@@ -34,7 +34,7 @@ public class TestBase  {
 	public static void initialization() {
 		String browser_Name=prop.getProperty("browser");
 		if(browser_Name.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", projectPath + "\\src\\driver\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\rupal.garg\\Desktop\\drivers\\chromedriver.exe");
 			driver=new ChromeDriver();
 		}
 		driver.manage().window().maximize();
